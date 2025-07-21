@@ -2,56 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Global Regulations</title>
 
   <!-- Leaflet CSS -->
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="https://dronerules.github.io/Global-Regs/styles.css" />
-
-  <!-- Leaflet JS (no integrity check) -->
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
-  <!-- Regulations JavaScript -->
-  <script src="https://dronerules.github.io/Global-Regs/regulations.js"></script>
-
-  <!-- Custom JS -->
-  <script src="https://dronerules.github.io/Global-Regs/script.js" defer></script>
-</head>
-
-  <!-- Leaflet JS -->
-<script
-  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-></script>
-  
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="https://dronerules.github.io/Global-Regs/styles.css" />
-
-  <!-- Leaflet JavaScript -->
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
-
-  <!-- Regulations JavaScript -->
-  <script src="https://dronerules.github.io/Global-Regs/regulations.js"></script>
-
-  <!-- Custom Map Script -->
-  <script src="https://dronerules.github.io/Global-Regs/script.js" defer></script>
 </head>
 <body>
-  <div id="map"></div>
-  <div id="popup" class="popup">
-    <button id="closePopup" class="close-button">✕</button>
-    <div id="popupContent"></div>
+  <!-- Header -->
+  <div id="header-bar">
+    <img id="logo" src="https://dronerules.github.io/Global-Regs/logo.png" alt="Logo">
+    <h1>Global Regulations</h1>
   </div>
 
-  <div class="search-container">
-    <input type="text" id="searchInput" placeholder="Search country..." />
-    <button id="searchBtn">Search</button>
+  <!-- Search Bar -->
+  <input type="text" id="country-search" placeholder="Search for a country..." />
+
+  <!-- Map -->
+  <div id="map"></div>
+
+  <!-- Regulation Popup -->
+  <div id="regulation-popup" class="hidden">
+    <div id="popup-content"></div>
+    <button id="close-btn">Close</button>
   </div>
+
+  <!-- External Scripts -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://dronerules.github.io/Global-Regs/regulations.js"></script>
+  <script src="https://dronerules.github.io/Global-Regs/script.js" defer></script>
 </body>
 </html>
