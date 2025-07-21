@@ -1,5 +1,5 @@
 const regulations = {
-  "United Kingdom": `<h2>United Kingdom</h2><p><a href="https://www.caa.co.uk" target="_blank">https://www.caa.co.uk</a></p>`,
+  "United Kingdom": `<h2>United Kingdom</h2><p><a href="https://www.caa.co.uk/drones/" target="_blank">https://www.caa.co.uk/drones/</a></p>`,
   "Austria": `<h2>Austria</h2><p><a href="https://www.austrocontrol.at" target="_blank">https://www.austrocontrol.at</a></p>`,
   "Belgium": `<h2>Belgium</h2><p><a href="https://www.mobilit.belgium.be/fr/transport_aerien" target="_blank">https://www.mobilit.belgium.be/fr/transport_aerien</a></p>`,
   "Bulgaria": `<h2>Bulgaria</h2><p><a href="http://www.caa.bg/en" target="_blank">http://www.caa.bg/en</a></p>`,
