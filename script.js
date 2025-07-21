@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const countryLayers = {};
 
   // Load GeoJSON data
-  fetch('countries.geo.json')
+  fetch("https://dronerules.github.io/Global-Regs/countries.geo.json")
     .then(response => response.json())
     .then(data => {
       const geojsonLayer = L.geoJSON(data, {
