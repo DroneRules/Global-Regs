@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Global Regulations</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="header-bar">
+  <img src="images/TDR_Official_Logo_Upscaled.png" alt="TDR Logo" id="logo">
+  <h1>Global Regulations</h1>
+</div>
+<input id="country-search" type="text" placeholder="Search for a country..." />
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="regulations.js"></script>
+  <script src="script.js"></script>
+
+<div id="regulation-popup" class="hidden">
+  <div id="popup-content"></div>
+  <button id="close-btn">Close</button>
+</div>
+</body>
+</html>
