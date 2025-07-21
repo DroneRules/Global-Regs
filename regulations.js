@@ -38,7 +38,7 @@ const regulations = {
   "Cambodia": `<h2>Cambodia</h2><p><a href="https://www.civilaviation.gov.kh/en/" target="_blank">https://www.civilaviation.gov.kh/en/</a></p>`,
   "China": `<h2>China</h2><p><a href="https://www.caac.gov.cn" target="_blank">https://www.caac.gov.cn</a></p>`,
   "Hong Kong (SAR)": `<h2>Hong Kong (SAR)</h2><p><a href="https://www.cad.gov.hk" target="_blank">https://www.cad.gov.hk</a></p>`,
-  "India": `<h2>India</h2><p><a href="https://www.dgca.gov.in" target="_blank">https://www.dgca.gov.in</a></p>`,
+  "India": `<h2>India</h2><p><a href="https://www.dgca.gov.in/digigov-portal/baseLocale=en_US?page=jsp/dgca/InventoryList/headerblock/drones/RPAS.html" target="_blank">https://www.dgca.gov.in/digigov-portal/baseLocale=en_US?page=jsp/dgca/InventoryList/headerblock/drones/RPAS.html</a></p>`,
   "Indonesia": `<h2>Indonesia</h2><p><a href="https://hubud.dephub.go.id" target="_blank">https://hubud.dephub.go.id</a></p>`,
   "Iran": `<h2>Iran</h2><p><a href="https://www.cao.ir" target="_blank">https://www.cao.ir</a></p>`,
   "Iraq": `<h2>Iraq</h2><p><a href="https://www.icaa.gov.iq" target="_blank">https://www.icaa.gov.iq</a></p>`,
