@@ -92,7 +92,7 @@ const regulations = {
   "Seychelles": `<h2>Seychelles</h2><p><a href="http://www.scaa.sc" target="_blank">http://www.scaa.sc</a></p>`,
   "Sierra Leone": `<h2>Sierra Leone</h2><p><a href="http://www.slcaa.sl" target="_blank">http://www.slcaa.sl</a></p>`,
   "Somalia": `<h2>Somalia</h2><p><a href="http://www.scama.so" target="_blank">http://www.scama.so</a></p>`,
-  "South Africa": `<h2>South Africa</h2><p><a href="http://www.caa.co.za" target="_blank">http://www.caa.co.za</a></p>`,
+  "South Africa": `<h2>South Africa</h2><p><a href="https://www.caa.co.za/industry-information/uas/" target="_blank">https://www.caa.co.za/industry-information/uas/</a></p>`,
   "South Sudan": `<h2>South Sudan</h2><p><a href="http://www.ssaa.gov.ss" target="_blank">http://www.ssaa.gov.ss</a></p>`,
   "Sudan": `<h2>Sudan</h2><p><a href="http://www.sudancaa.gov.sd" target="_blank">http://www.sudancaa.gov.sd</a></p>`,
   "Tanzania": `<h2>Tanzania</h2><p><a href="http://www.tcaa.go.tz" target="_blank">http://www.tcaa.go.tz</a></p>`,
