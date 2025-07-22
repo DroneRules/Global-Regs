@@ -19,26 +19,15 @@ An interactive world map that displays clickable links to national civil aviatio
 
 ## 📁 Project Structure
 
----
-
-## 🚀 Getting Started (Development)
-
-To run locally, use a local server (required to load GeoJSON files):
-
-### Python (quick start)
-```bash
-python -m http.server
-
+/index.html → Main map interface
+/styles.css → Custom map and popup styles
+/script.js → Leaflet map setup, hover, search, and interaction
+/regulations.js → Mapping of country names to regulator URLs
+/countries.geo.json → GeoJSON country boundaries
+/README.md → This documentation
+/LICENSE → Legal licensing document
 
 ---
-
-## 🚀 Getting Started (Development)
-
-To run locally, use a local server (required to load GeoJSON files):
-
-### Python (quick start)
-```bash
-python -m http.server
 
 This project is live at:
 
